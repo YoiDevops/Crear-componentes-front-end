@@ -11,20 +11,20 @@ html {
 body {
     font-family: Arial;
     line-height: 1.6;
-    background-color: #f4f6f8;
-    color: #222;
+    background-color: #f8f2e7;
+    color: #2d241d;
 }
 
 header {
-    background-color: #1e293b;
-    color: white;
+    background-color: #d9c4a3;
+    color: #2d241d;
     padding: 30px;
     text-align: center;
 }
 
 header h1 {
     font-size: 1.1rem;
-    color: #cbd5e1;
+    color: #5b4638;
 }
 
 nav {
@@ -32,13 +32,13 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #fffaf3;
     text-decoration: none;
     margin: 0 10px;
 }
 
 nav a:hover {
-    color: #38bdf8;
+    color: #7d604a;
 }
 
 main {
@@ -48,14 +48,51 @@ main {
 }
 
 section {
-    background-color: white;
     padding: 30px;
     margin-bottom: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,  0, 0, 0.08);
 }
 
-#columna-izquierda {
-    position: absolute;
-    left: 20px;
+section h2 {
+    color: #4b382d;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+.cv {
+    max-width: 1100px;
+    margin: 40px auto;
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+}
+
+#foto {
+    width: 70%;
+    border-radius: 35%;
+    margin-bottom: 20px;
+    right: -30px;
+    position: relative;
+}
+
+ul {
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.columna-izquierda ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
 }
